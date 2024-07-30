@@ -38,7 +38,7 @@
 }
 
 .buttonPhotos > * {
-    stroke: var(--background);
+    stroke: var(--stroke);
     fill: var(--main);
     width: 1.6rem;
     height: 1.6rem;
@@ -80,9 +80,23 @@
         width: 100px;
         height: 100px;
     }
+    .buttonPhotos > * {
+        width: 1.2rem;
+        height: 1.rem;
+    }
 
-    .buttonPhotosBackground{
-        width: 35px;
-        height: 35px;
+    .buttonPhotos{
+        padding: 0.2rem;
+    }
+}
+
+@media (hover: none) {
+    .buttonPhotos:hover > *{
+        animation: none;
+        
+    }
+
+    .buttonPhotos:hover {
+        background-color: rgb(0, 0, 0, 0);
     }
 }

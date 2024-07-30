@@ -1,38 +1,68 @@
-.leftBar-content{
-    position: fixed;
-    width: 300px;
-    height: 100%;
-    background-color: var(--secondary);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.leftBar-content {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .leftBar-content ul {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    list-style: none;
-    font-size: 1.5rem;
-    margin-top: 50px;
-    text-transform: uppercase;
-    color: var(--text-secondary);
-    padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.4rem;
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  padding: 0;
 }
 
-ul li{
-    cursor: pointer;
+ul li {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+}
+
+.optionSelected {
+  color: var(--tertiary);
+  font-weight: bold;
+}
+
+@media not (prefers-reduced-motion) {
+  ul li {
+    transition: transform 0.1s ease-in-out;
+  }
 }
 
 @media (max-width: 768px) {
-    .leftBar-content{
-        width: 250px;
-    }
+  .leftBar-content {
+    width: 250px;
+  }
+
+  .leftBar-content ul {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 480px) {
-    .leftBar-content{
-        width: 150px;
-    }
+  .leftBar-content {
+    width: 150px;
+  }
+
+  .leftBar-content ul {
+    font-size: 1rem;
+  }
+}
+
+@media (hover: none) {
+  ul li:hover {
+    transform: none;
+  }
 }
