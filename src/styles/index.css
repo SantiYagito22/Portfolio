@@ -1,0 +1,8 @@
+body {
+  background-color: var(--background);
+  font-family: 'Rubik';
+}
+
+code {
+  font-family: "Rubik", sans-serif;
+}
