@@ -5,8 +5,8 @@
   background-color: var(--secondary);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding-top: 20vh;
 }
 
 .leftBar-content ul {

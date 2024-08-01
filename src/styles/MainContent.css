@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.optionsContent{
+    padding-top: 23vh;
+}
+
 @media (max-width: 768px) {
     .bodyContent{
         margin-left: 250px;

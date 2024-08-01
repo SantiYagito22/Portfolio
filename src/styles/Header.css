@@ -3,4 +3,7 @@
     align-items: center;
     justify-content: flex-end;
     padding-top: 10px;
+    top: 0;
+    right: 0;
+    position: fixed;
 }

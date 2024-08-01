@@ -1,12 +1,14 @@
 import { use } from "i18next";
 import "../styles/SideBar.css";
+import { useContext } from 'react';
 import ProfilePictures from "./imgs/ProfilePictures";
 import { useTranslationContext } from "./LanguageI18n/TranslationProvider";
-import { useState } from "react";
+
+import { CurrentIndexContext } from "./CurrentIndexProvider";
 
 function SideBar() {
   const { t } = useTranslationContext();
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const { currentIndex, setCurrentIndex } = useContext(CurrentIndexContext);
   const sideOptions = [
     t("home"),
     t("aboutMe"),
@@ -22,6 +24,7 @@ function SideBar() {
       <ul>
         {sideOptions.map((option, index) => (
           <li
+          key={index}
             className={currentIndex === index ? "optionSelected" : ""}
             onClick={() => {
               if (index !== currentIndex) {
