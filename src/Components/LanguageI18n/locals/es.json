@@ -10,5 +10,9 @@
     "backPhotoArrow": "Visualizar Imagen Previa",
     "nextPhotoArrow": "Visualizar Siguiente Imagen",
     "profilePhoto": "Foto De Perfil",
-    "sectionProfile": "Carrusel De Fotos De Perfil"
+    "sectionProfile": "Carrusel De Fotos De Perfil",
+    "optionList": "Lista De Opciones",
+    "changeLanguage": "Cambiar Idioma A Ingles",
+    "changeToLight": "Cambiar Tema A Claro",
+    "changeToDark": "Cambiar Tema A Oscuro"
 }

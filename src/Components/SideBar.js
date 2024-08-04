@@ -21,7 +21,7 @@ function SideBar() {
   return (
     <div className="leftBar-content">
       <ProfilePictures />
-      <ul>
+      <ul aria-label={t('optionList')}>
         {sideOptions.map((option, index) => (
           <li
           key={index}

@@ -10,5 +10,9 @@
     "backPhotoArrow": "View Previous Image",
     "nextPhotoArrow": "View Next Image",
     "profilePhoto": "Profile Photo",
-    "sectionProfile": "Profile Photo Carousel"
+    "sectionProfile": "Profile Photo Carousel",
+    "optionList": "Options List",
+    "changeLanguage": "Change Language To Spanish",
+    "changeToLight": "Change Theme To Light",
+    "changeToDark": "Change Theme To Dark"
 }
