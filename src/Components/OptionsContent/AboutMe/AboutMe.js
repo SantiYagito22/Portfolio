@@ -4,7 +4,7 @@ function AboutMe({}, ref) {
 
   return (
     <div >
-      <h2 ref={ref}>SOY SANTIAGO</h2>
+      <h2 ref={ref}></h2>
     </div>
   );
 }

@@ -3,8 +3,8 @@ import { forwardRef } from "react";
 function Contact({}, ref) {
 
   return (
-    <div style={{marginTop: 5000}}>
-      <h2 ref={ref}>Contacto</h2>
+    <div>
+      <h2 ref={ref}></h2>
     </div>
   );
 }

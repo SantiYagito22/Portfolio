@@ -26,7 +26,7 @@ function MainContent() {
   ];
 
   useEffect(() => {
-    ref.current?.scrollIntoView({ behavior: 'smooth'})
+    ref.current?.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest'})
   }, [currentIndex]);
 
   return (

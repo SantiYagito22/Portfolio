@@ -6,7 +6,8 @@
 }
 
 .optionsContent{
-    padding-top: 23vh;
+    padding-top: 25vh;
+    padding-left: 1vw;
 }
 
 @media (max-width: 768px) {
@@ -19,6 +20,6 @@
 @media (max-width: 480px) {
     .bodyContent{
         margin-left: 150px;
-        width: calc(100% - 120px);
+        width: calc(100% - 150px);
     }
 }

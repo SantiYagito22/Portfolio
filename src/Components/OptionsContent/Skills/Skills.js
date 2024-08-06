@@ -4,7 +4,7 @@ function Skills({}, ref) {
 
   return (
     <div>
-     <h2 ref={ref}>Destrezas</h2>
+     <h2 ref={ref}></h2>
     </div>
   );
 }

@@ -14,5 +14,15 @@
     "optionList": "Options List",
     "changeLanguage": "Change Language To Spanish",
     "changeToLight": "Change Theme To Light",
-    "changeToDark": "Change Theme To Dark"
+    "changeToDark": "Change Theme To Dark",
+    "welcomePortfolio": "Welcome to my portfolio as a",
+    "developer": " developer.",
+    "emailContact": "Would you like to get in touch? Feel free to email me at ↴",
+    "okCopyEmail": "Email copied to clipboard.",
+    "errorCopyEmail": "Copy to clipboard failed.",
+    "prepareEmail": "Prepare The Email",
+    "copyEmail": "Copy Email",
+    "downloadCV": "Download CV",
+    "openCV": "Open CV",
+    "or": "or"
 }

@@ -24,6 +24,7 @@
   --secondary: #eaddcf;
   --tertiary: #f25042;
   --text-secondary:#6e5a32;
+  --border-button: #c39238;
 }
 
 [data-theme='dark'] {
@@ -41,5 +42,6 @@
   --secondary: #72757e;
   --tertiary: #2cb67d;
   --text-secondary:#19191a;
+  --border-button: #46337d;
 }
 

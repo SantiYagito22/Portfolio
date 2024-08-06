@@ -14,5 +14,15 @@
     "optionList": "Lista De Opciones",
     "changeLanguage": "Cambiar Idioma A Ingles",
     "changeToLight": "Cambiar Tema A Claro",
-    "changeToDark": "Cambiar Tema A Oscuro"
+    "changeToDark": "Cambiar Tema A Oscuro",
+    "welcomePortfolio": "¡Bienvenid@ a mi portfolio como desarrollador",
+    "developer": ".",
+    "emailContact": "¿Te interesaría ponerte en contacto? No dudes en enviarme un correo a ↴",
+    "okCopyEmail": "Email copiado al portapapeles",
+    "errorCopyEmail": "Copia al portapapeles fallido",
+    "prepareEmail": "Preparar El Correo Electrónico",
+    "copyEmail": "Copiar Correo Electrónico",
+    "downloadCV": "Descargar CV",
+    "openCV": "Abrir CV",
+    "or": "o"
 }
